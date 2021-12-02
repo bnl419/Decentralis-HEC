@@ -1,0 +1,36 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/list.css");
+
+
+
+
+body{margin: 0px;}
+
+.center{padding: 30px;
+font-family: 'roboto', sans-serif;
+text-align: center;}
+
+#flex{display: inline-flex;}
+
+@media (max-width: 960px) {
+  #flex {
+    display: : flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+a{color: #0066CC;
+font-size: 60px;}
+
+a:hover {color: grey;}
+
+#reduce{width: 600px;
+text-align: center;
+margin-left: 400px;}
+
+
+

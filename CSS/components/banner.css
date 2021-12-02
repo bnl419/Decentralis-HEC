@@ -1,0 +1,37 @@
+#cover{background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+  url(../../images/IMG_6240.JPG);
+background-size: cover;
+background-position: center;
+}
+
+.container{font-size: 30px;
+font-family: 'roboto', sans-serif;
+color: white;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 70px;}
+
+#logo{text-align: center;
+padding-top: 50px;}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin-right: 0px;
+    display: inline-flex;
+  }
+  .container h1 {text-align: center;
+    margin-right: 0px;}
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .container h1 {text-align: center;}
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .container h1 {text-align: center;}
+}

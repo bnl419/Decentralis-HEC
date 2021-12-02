@@ -1,0 +1,31 @@
+.card{display: inline-flex;
+text-align: center;
+align-items: center;
+width: 800px;
+flex-grow: 1;
+margin-top: 30px;
+margin-bottom: 30px;
+border: 1px solid grey;
+box-shadow: 0px 5px 3px rgb(0,0,0,0.1);
+border-radius: 2%;}
+
+.card img{margin: 10px;
+border-radius: 5%;}
+
+.card p {padding-left: 30px;}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 450px;
+  }
+}

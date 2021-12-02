@@ -1,0 +1,21 @@
+ul{margin-top: 0px;}
+
+ul li{list-style: none;
+  list-style: inline;
+  display: inline;
+padding: 20px;
+}
+
+@media (max-width: 960px) {
+  ul li {
+    display: block;
+  }
+}
+
+.list-verticale{display: block;
+}
+
+.list{list-style: none;
+padding-left: 0px;}
+
+.list li{display: block;}
